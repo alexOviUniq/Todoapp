@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--TodoApp-->
+        <!--OvisList-->
         <scene sceneID="6AE-xT-r4o">
             <objects>
                 <tableViewController id="k6b-mB-i9v" customClass="CategoryViewController" customModule="Todoapp" customModuleProvider="target" sceneMemberID="viewController">
@@ -32,7 +32,7 @@
                             <outlet property="delegate" destination="k6b-mB-i9v" id="Sel-ow-fyY"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="TodoApp" id="AeV-DV-xe1">
+                    <navigationItem key="navigationItem" title="OvisList" id="AeV-DV-xe1">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="HnI-So-vxh">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
@@ -48,7 +48,7 @@
             </objects>
             <point key="canvasLocation" x="2010" y="131"/>
         </scene>
-        <!--Items-->
+        <!--Productos-->
         <scene sceneID="iHA-OV-jPc">
             <objects>
                 <tableViewController id="MF4-1O-ncH" customClass="TodoListViewController" customModule="Todoapp" customModuleProvider="target" sceneMemberID="viewController">
@@ -79,7 +79,7 @@
                             <outlet property="delegate" destination="MF4-1O-ncH" id="sIm-DM-66x"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Items" id="AQ6-Rx-MLD">
+                    <navigationItem key="navigationItem" title="Productos" id="AQ6-Rx-MLD">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="qid-r6-izX">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
@@ -100,7 +100,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hsE-V3-q8j">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.47684186699999997" green="0.50480759139999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
@@ -115,4 +115,5 @@
             <point key="canvasLocation" x="986.39999999999998" y="130.88455772113943"/>
         </scene>
     </scenes>
+    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
 </document>
